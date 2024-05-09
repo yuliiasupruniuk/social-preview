@@ -8,12 +8,4 @@ import { Meta } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'social-preview';
-
-  constructor(private metaService: Meta) {
-    this.metaService.addTag({ property: 'og:title', content: 'constructor' });
-  }
-
-  ngOnInit() {
-    this.metaService.addTag({ property: 'og:title', content: 'ngOnInit' });
-  }
 }

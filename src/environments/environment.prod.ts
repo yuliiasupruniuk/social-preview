@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  metaTags: {
+    ogTitle: 'Prod OG Title',
+  }
 };
